@@ -112,4 +112,4 @@ exports
 *.cache
 build
 .strapi-updater.json
-Path: ./my-project/.gitignore
+Path: ./basso-backend/.gitignore
