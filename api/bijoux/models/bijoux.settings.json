@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "bijouxes",
   "info": {
-    "name": "bijoux"
+    "name": "bijoux",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,7 +17,7 @@
     "description": {
       "type": "richtext"
     },
-    "image1": {
+    "images": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -27,8 +28,8 @@
       "plugin": "upload",
       "required": false
     },
-    "image2": {
-      "collection": "file",
+    "mainImage": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -37,26 +38,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "image3": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "legend1": {
-      "type": "string"
-    },
-    "legend2": {
-      "type": "string"
-    },
-    "legend3": {
-      "type": "string"
     }
   }
 }
